@@ -1,0 +1,14 @@
+.carrousel slide{
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    height: 70px;
+    padding-top: 10px;
+    position: static, fixed;
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    list-style: none;
+}

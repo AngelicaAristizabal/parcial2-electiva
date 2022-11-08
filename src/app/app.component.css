@@ -1,0 +1,23 @@
+.btn-primary{
+    background-color: rgb(216,49,53);
+color: white;
+border-color: rgb(216,49,53);
+}
+
+.btn-orange{
+    background-color: #f58634;
+color: #fff;
+border-color: #fff;
+}
+
+.btn-blue{
+    background-color: #8ccec6;
+    color: #fff;
+    border-color: #fff;
+  }
+
+  .btn-green{
+    background-color: #00804e;
+color: #fff;
+border-color: #fff;
+  }

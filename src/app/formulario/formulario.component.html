@@ -1,0 +1,38 @@
+<h1 class="text-center">Formulario de asistencia</h1>
+
+<div class="container border">
+    <div class="row g-3">
+        <div class="col">
+          <input  type="text"
+          name="nombre" 
+          class="form-control" placeholder="Ingrese sus nombres" aria-label="nombre"
+          [(ngModel)]="Estudiantes.nombres">
+        </div>
+        <div class="col">
+          <input type="text"
+          name="apellidos" class="form-control" 
+          placeholder="Ingrese sus apellidos" aria-label="apellido"
+          [(ngModel)]="Estudiantes.apellidos"
+          >
+        </div>
+    <br>
+    <br>
+        <div class="col">
+            <input  type="email"
+            name="correo"
+            placeholder="Ingrese su correo electronico"
+            [(ngModel)]="Estudiantes.correo" aria-label="correo"
+            >
+          </div>
+          <div class="col">
+            <input  type="text"
+            name="residencia"
+            placeholder="Ingrese su lugar de residencia"
+            [(ngModel)]="Estudiantes.residencia" aria-label="correo"
+            >
+          </div>
+          <button class="btn btn-primary" type="submit" (click)="save()">Guardar</button>
+      </div>
+            
+        
+          </div>
